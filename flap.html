@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+   <title>FlapFlap</title>
+   <link href="css/reset.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+   <div id="gamecontainer">
+      <div id="gamescreen">
+         <div id="sky" class="animated">
+            <div id="flyarea">
+               <div id="ceiling" class="animated"></div>
+               <div id="player" class="bird animated"></div>
+
+               <div id="bigscore"></div>
+
+               <div id="scoreboard">>
+                  <div id="replay"><img src="assets/replay.png" alt="replay"></div>
+               </div>
+            </div>
+         </div>
+         <div id="land" class="animated">
+            <div id="debug"></div>
+         </div>
+      </div>
+   </div>
+   <div class="boundingbox" id="playerbox"></div>
+   <div class="boundingbox" id="pipebox"></div>
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/jquery.transit.min.js"></script>
+   <script src="js/buzz.min.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/doppler.js"></script>
+
+</body>
+
+</html>
